@@ -1,0 +1,4 @@
+{
+  "mongoURI":"mongodb+srv://ProsperKuubeyir:menace@cluster0.aq5sz.mongodb.net/urls?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
+}
