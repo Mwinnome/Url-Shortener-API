@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const Url = require('../models/Url');
+const Url = require('../models/url');
 
 // @route     GET /:code
 // @desc      Redirect to long/original URL
