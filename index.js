@@ -15,6 +15,10 @@ app.use('/', require('./routes/index'));
 app.use('/api/url', require('./routes/url'));
 app.use("/api/users", require('./routes/userRoutes'))
 
+app.get("/", (req, res) => {
+   res.status(200).send("Welcome to our api") 
+})
+
 const PORT = 9500;
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
